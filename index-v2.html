@@ -1,11 +1,224 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Bootstrap demo</title>
+
+    <!-- bootstrap link -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+
+    <!-- css  -->
+    <link rel="stylesheet" href="css/styles for v2.css" />
   </head>
   <body>
-    <h1>Hello, world!</h1>
+    <!-- header  -->
+    <header class="container px-md-5">
+      <!-- navbar  -->
+      <nav
+        class="d-flex flex-md-row flex-column justify-content-between align-items-md-center align-items-start gap-4 gap-md-0 paragraph-primary my-3"
+      >
+        <div>
+          <img src="images/logo2.png" alt="" />
+        </div>
+        <div
+          class="d-flex justify-content-between gap-4 flex-md-row flex-column align-items-md-center align-items-start"
+        >
+          <div class="d-flex justify-content-center align-items-center">
+            Home
+          </div>
+
+          <div class="d-flex justify-content-center align-items-center">
+            <div>Services</div>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="19"
+              height="19"
+              fill="Gray"
+              class="bi bi-chevron-right"
+              viewBox="0 0 16 16"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"
+              />
+            </svg>
+          </div>
+          <div class="d-flex justify-content-center align-items-center">
+            <div>Cases</div>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="19"
+              height="19"
+              fill="Gray"
+              class="bi bi-chevron-right"
+              viewBox="0 0 16 16"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"
+              />
+            </svg>
+          </div>
+          <div class="d-flex justify-content-center align-items-center">
+            <div>Blogs</div>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="19"
+              height="19"
+              fill="Gray"
+              class="bi bi-chevron-right"
+              viewBox="0 0 16 16"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"
+              />
+            </svg>
+          </div>
+
+          <div class="d-flex justify-content-center align-items-center">
+            <div>Contact Us</div>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="19"
+              height="19"
+              fill="Gray"
+              class="bi bi-chevron-right"
+              viewBox="0 0 16 16"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"
+              />
+            </svg>
+          </div>
+        </div>
+        <div>
+          <!-- Button trigger modal -->
+          <button
+            type="button"
+            class="btn modal-button text-white"
+            data-bs-toggle="modal"
+            data-bs-target="#exampleModal"
+          >
+            Free Consultation
+          </button>
+
+          <!-- Modal -->
+          <div
+            class="modal fade"
+            id="exampleModal"
+            tabindex="-1"
+            aria-labelledby="exampleModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1
+                    class="modal-title fs-5 primary-bg-color rounded-5 py-2 ps-3 pe-4"
+                    id="exampleModalLabel"
+                  >
+                    Good Evening Sir!
+                  </h1>
+                  <button
+                    type="button"
+                    class="btn-close"
+                    data-bs-dismiss="modal"
+                    aria-label="Close"
+                  ></button>
+                </div>
+                <div class="modal-body primary-bg-color">
+                  Dear customer,<br /><br />
+                  Thank you for consulting me. As a consultant, I'll provide
+                  you with accurate and best legal assistance. Let's get
+                  started!<br /><br />
+                  Best regards,<br />
+                  MD Jafor Sadek Khan <br />
+                  <br />
+                  <br />
+                  <label for="text-input" class="fs-5">Your Question:</label>
+                  <input
+                    type="text"
+                    id="text-input"
+                    name="text-input"
+                    value="write here..."
+                    class="rounded-pill border border-bottom-1 px-4 py-1 text-black-50 fs-6"
+                  />
+                </div>
+                <div class="modal-footer">
+                  <button
+                    type="button"
+                    class="btn btn-secondary"
+                    data-bs-dismiss="modal"
+                  >
+                    Cancel
+                  </button>
+                  <button type="button" class="btn modal-button text-white">
+                    Submit
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+<!-- banner  -->
+
+      <section class="my-5">
+        <div class="card text-bg-dark">
+          <img src="images/banner.png" class="card-img" alt="...">
+
+          <div class="card-img-overlay d-flex flex-column justify-content-center align-items-center w-50 mx-auto card-overlay">
+            <h1 class="card-title display-4 fw-bolder text-center">We Provide Effective Legal Solutions</h1>
+            <p class="card-text text-center">Welcome to our legal solutions firm. We provide effective and serious solutions that work for you. Trust us to handle your legal issues with professionalism</p>
+            <form action="" class="d-flex flex-row justify-content-center align-items-center gap-2">
+              <input type="email" value="Search your services" class="paragraph-primary search-box p-2 rounded-1 border-0 fs-6">
+              <button class="btn button-primary font-secondary">
+                Search
+              </button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </header>
+    <!-- main  -->
+
+    <main>
+      <!-- The Legal Practice Area  -->
+      <section>
+        <div class="d-flex flex-column justify-content-center align-items-center w-md-50 mx-md-auto">
+          <h3 class="title-primary">
+            The Legal Practice Area
+          </h3>
+          <p class="paragraph-primary text-center">
+            Our legal practice specializes in a wide range of areas, including corporate law, intellectual property, litigation, and more.
+          </p>
+        </div>
+        <div>
+          <div>
+            <img src="images/" alt="">
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- footer -->
+
+    <footer></footer>
+
+    <!-- bootstrap js  -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>

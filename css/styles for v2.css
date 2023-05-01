@@ -26,6 +26,7 @@ body {
   color: #414040;
   font-size: 40px;
   font-weight: 800;
+  text-align: center;
 }
 
 .paragraph-primary {
@@ -44,6 +45,15 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
+.button-hover-effect:hover
+{
+    background-color: transparent;
+    border: 1px solid black;
+    transition: background-color 1s ease-in-out,
+                border 1s ease-in-out ;
+}
+
+
 /* nav  */
 .modal-button {
   background-color: #b68c5a;
@@ -58,6 +68,14 @@ body {
 
 
 /* banner */
+
+/* clients  */
+.carousel-img-w
+{
+    width: 10%;
+}
+
+
 
 /* media query */
 
@@ -75,6 +93,12 @@ body {
   .card-overlay {
     width: 100% !important;
   }
+
+  /* client  */
+  .carousel-paragraph-font-sm
+{
+    font-size: 11px;
+}
 }
 
 @media screen and (min-width: 577px) {

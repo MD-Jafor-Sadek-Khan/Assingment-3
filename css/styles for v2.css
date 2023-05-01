@@ -100,6 +100,10 @@ body {
 {
     font-size: 11px;
 }
+.sm-none
+{
+    display: none;
+}
 }
 
 @media screen and (min-width: 577px) {
@@ -107,8 +111,18 @@ body {
   .w-md-50 {
     width: 50%;
   }
+  .w-md-25 {
+    width: 25%;
+  }
+  .w-md-75 {
+    width: 75%;
+  }
   /* banner  */
   .search-box {
     padding: 0.5rem 13rem 0.5rem 0.5rem;
   }
+.md-none
+{
+    display: none;
+}  
 }

@@ -365,7 +365,7 @@
 
       <!-- Frequently Asked Any Questions -->
       <section>
-        <div>
+        <div class="mb-5 w-md-50 mx-auto">
           <h3 class="title-primary">
             Frequently Asked Any Questions
           </h3>
@@ -373,8 +373,9 @@
             Our FAQ section answers common inquiries about our services, policies, and procedures. Contact us for more information.
           </p>
         </div>
-        <div>
+        <div class="d-flex flex-column-reverse flex-md-row justify-content-center align-items-start gap-4">
           <div>
+            <!-- accordion -->
             <div class="accordion" id="accordionExample">
               <!-- item 1  -->
               <div class="accordion-item mb-5 border-0 bg-secondary bg-opacity-10 rounded-3">
@@ -430,23 +431,44 @@
               <div class="accordion-item mb-5 border-0 bg-secondary bg-opacity-10 rounded-3">
                 <h2 class="accordion-header">
                   <button class="accordion-button collapsed bg-secondary bg-opacity-10 py-4 rounded-top-3 title-primary text-dark fs-4" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                    Accordion Item #3
+                    4: What is a semantic tag?
                   </button>
                 </h2>
                 <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                   <div class="accordion-body bg-secondary bg-opacity-10 rounded-bottom-3 paragraph-primary text-start text-dark">
-                    <ol>
-                      <li>Semantic tags make code more readable and maintainable.</li>
-                      <li>They help with accessibility by providing context for screen readers and other assistive technologies.</li>
-                      <li>They improve SEO by making it easier for search engines to understand the content of a page.</li>
-                      <li>Examples of semantic tags include <span class="text-success fw-bolder">&lt;header&gt;</span> , <span class="text-success  fw-bolder">&lt;nav&gt;</span> , <span class="text-success  fw-bolder">&lt;main&gt;</span> , <span class="text-success fw-bolder">&lt;section&gt;</span> , <span class="text-success fw-bolder">&lt;article&gt;</span> , <span class="text-success fw-bolder">&lt;aside&gt;</span> , <span class="text-success fw-bolder">&lt;footer&gt;</span> , <span class="text-success fw-bolder">&lt;figure&gt;</span> and <span class="text-success fw-bolder">&lt;figcaption&gt;</span><span class="fw-bolder">.</span> </li>
-                    </ol>
+                    <ul>
+                      <li class="pb-2">Semantic tags make code more readable and maintainable also it improves website accessibility.</li>
+                      <li>Examples: <br><br>
+                        <div class="row row-cols-5 g-2 text-center p-2">
+                        
+                          <span class="col text-success fw-bolder">&lt;header&gt;</span>
+                          <span class="col text-success  fw-bolder">&lt;nav&gt;</span>
+                          <span class="col text-success  fw-bolder">&lt;main&gt;</span>
+                          <span class="col text-success fw-bolder">&lt;section&gt;</span>
+                          <span class="col text-success fw-bolder">&lt;article&gt;</span>
+                          <span class="col text-success fw-bolder">&lt;aside&gt;</span>
+                          <span class="col text-success fw-bolder">&lt;footer&gt;</span>
+                          <span class="col text-success fw-bolder">&lt;address&gt;</span>
+                          <span class="col text-success fw-bolder">&lt;time&gt;</span>
+                          <span class="col text-success fw-bolder">&lt;summary&gt;</span>
+                          <span class="col text-success fw-bolder">&lt;details&gt;</span>
+                          <span class="col text-success fw-bolder">&lt;meter&gt;</span>
+                          <span class="col text-success fw-bolder">&lt;dialog&gt;</span> 
+                          <span class="col text-success fw-bolder">&lt;mark&gt;</span>
+                          <span class="col text-success fw-bolder">&lt;progress&gt;</span>
+                        </div>
+                      </li>
+                    </ul>
                   </div>
                 </div>
               </div>
             </div>
+            <!-- accordion end  -->
           </div>
-          <div></div>
+          <div>
+            <img src="images/faq.png" class="sm-none" alt="">
+            <img src="images/faq.png" class="md-none img-thumbnail" alt="">
+          </div>
         </div>
       </section>
     </main>

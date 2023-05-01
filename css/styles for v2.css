@@ -91,6 +91,10 @@ body {
 {
     font-size: 13px;
 }
+  .font-sm-25
+{
+    font-size: 24px;
+}
 
   .rounded-sm-1
   {
@@ -129,9 +133,13 @@ body {
 {
     font-size: 13px;
 }
+  .font-md-25
+{
+    font-size: 24px;
+}
   /* banner  */
   .search-box {
-    padding: 0.5rem 13rem 0.5rem 0.5rem;
+    padding: 0.5rem 16rem 0.5rem 0.5rem;
   }
 .md-none
 {

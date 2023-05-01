@@ -55,6 +55,7 @@ body {
 }
 
 
+
 /* nav  */
 .modal-button {
   background-color: #b68c5a;
@@ -86,6 +87,11 @@ body {
     border: 1px solid lightgray !important;
   }
 
+  .font-sm-10
+{
+    font-size: 13px;
+}
+
   .rounded-sm-1
   {
     border-radius: 10px;
@@ -100,6 +106,7 @@ body {
 {
     font-size: 11px;
 }
+
 .sm-none
 {
     display: none;
@@ -117,6 +124,11 @@ body {
   .w-md-75 {
     width: 75%;
   }
+
+  .font-md-10
+{
+    font-size: 13px;
+}
   /* banner  */
   .search-box {
     padding: 0.5rem 13rem 0.5rem 0.5rem;
